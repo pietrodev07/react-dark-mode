@@ -1,0 +1,12 @@
+.header {
+  background-color: var(--bg-secondary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.header .title {
+  color: #3399FF;
+  text-transform: uppercase;
+}

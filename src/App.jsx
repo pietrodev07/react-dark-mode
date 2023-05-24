@@ -1,10 +1,12 @@
+import Header from "./components/Header/Header.jsx";
+
 function App() {
 
   return (
 
     <div className='app'>
 
-      <h1>DARK MODE</h1>
+     <Header />
 
     </div>
 
