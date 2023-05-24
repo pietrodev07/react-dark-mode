@@ -1,0 +1,29 @@
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.main .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 40px;
+  margin: 25px 0 20px 0;
+}
+
+.main .theme-btn {
+  color: var(--txt-primary);
+  background-color: var(--bg-secondary);
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px;
+  margin-top: 5px;
+  border: 2px solid var(--bg-border);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.main .theme-btn:hover {
+  background-color: var(--bg-border);
+}
