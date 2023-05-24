@@ -1,4 +1,7 @@
 import Header from "./components/Header/Header.jsx";
+import Main from "./components/Main/Main.jsx";
+import Footer from "./components/Footer/Footer.jsx";
+
 
 function App() {
 
@@ -6,7 +9,11 @@ function App() {
 
     <div className='app'>
 
-     <Header />
+      <Header/>
+
+      <Main />
+
+      <Footer/>
 
     </div>
 
